@@ -1,7 +1,21 @@
 .HeaderQuestion{
     color: white;
-    background-color: rgba(1,1,1,0.8);
-    font-size: 30;
-    font-style: italic;
-    
+    background-color: black;
+    padding: 8;
+}
+#logo{
+    width: 50;
+    vertical-align:-8px;
+}
+
+#Questiona{
+    color: rgb(79,175,70);
+    font-family: Andaris;
+    font-size: 35;
+}
+#Merda{
+    color: rgb(149,108,78);
+    font-family: Andaris;
+    font-size: 35;
+    font-weight: bold;
 }
