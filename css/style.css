@@ -1,7 +1,7 @@
 .HeaderQuestion{
-    color: chartreuse;
-    background: black;
+    color: white;
+    background-color: rgba(1,1,1,0.8);
     font-size: 30;
     font-style: italic;
-    font-weight: bold;
+    
 }
