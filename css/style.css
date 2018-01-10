@@ -1,4 +1,4 @@
-.HeaderQuestion{
+header{
     color: white;
     background-color: black;
     padding: 8;
@@ -12,10 +12,19 @@
     color: rgb(79,175,70);
     font-family: Andaris;
     font-size: 35;
+    text-decoration:none; 
+
 }
 #Merda{
     color: rgb(149,108,78);
     font-family: Andaris;
     font-size: 35;
     font-weight: bold;
+    text-decoration:none; 
+}
+body{
+    background-color: rgba(0,500,0,0.1);
+}
+.Pergunta{
+    text-align: center
 }
