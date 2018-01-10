@@ -23,7 +23,7 @@ header{
     text-decoration:none; 
 }
 body{
-    background-color: rgba(0,100,0,0.1);
+    background-color: rgba(0,100,0,0.2);
 }
 .Pergunta{
     text-align: center
@@ -31,8 +31,10 @@ body{
 .TabelaPergunta{
     border-width:thick;
     border-style: ridge;
-    border-color: darkgreen;
+    border-color: rgb(160,82,45);/*border-color: darkgreen;*/
+    margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
+    background-color: rgba(64,224,208,0.2);
 }
 
