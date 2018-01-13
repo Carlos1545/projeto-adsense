@@ -3,7 +3,7 @@ body{
     background-color: rgba(0,100,0,0.1);
     background-image: /*url(background.png)*/;
     background-position: left;
-	font-family: museo-sans-rounded,sans-serif;
+	font-family: museo-sans-rounded,sans-serif!important;
 }
 header{
     color: white;
@@ -50,4 +50,21 @@ header{
     padding: 30px;
     text-align-last: center;
 }
+
+.question{
+	font-size: 32px;
+    line-height: 38px;
+	
+	background-color: red;
+	min-height: 100px;
+}
+.ads{
+	background-color: blue;
+	min-height: 100px;
+}
+.option{
+	background-color: yellow;
+	min-height: 100px;
+}
+
 /*********** Footer */
