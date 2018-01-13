@@ -7,21 +7,19 @@ header{
     width: 45;
     vertical-align:-11px;
 }
-
-#Questiona{
+#logo{
+	font-family: Andaris;
+	font-size: 35px;
+	text-decoration:none;
+	font-weight: bold;
+}
+#logo-first{
     color: rgb(79,175,70);
-    font-family: Andaris;
-    font-size: 35;
-    text-decoration:none; 
-
 }
-#Merda{
+#logo-last{
     color: rgb(149,108,78);
-    font-family: Andaris;
-    font-size: 35;
-    font-weight: bold;
-    text-decoration:none; 
 }
+
 body{
     background-color: rgba(0,100,0,0.1);
     background-image: url(background.png);
