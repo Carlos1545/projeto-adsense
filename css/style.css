@@ -1,9 +1,11 @@
 /*********** HTML Tags */
 body{
-    background-color: rgba(0,100,0,0.1);
+    background-color: #f0f0f0;
     background-image: /*url(background.png)*/;
     background-position: left;
+	
 	font-family: museo-sans-rounded,sans-serif!important;
+	color: #3c3c3c;
 }
 header{
     color: white;
@@ -55,16 +57,23 @@ header{
 	font-size: 32px;
     line-height: 38px;
 	
-	background-color: red;
-	min-height: 100px;
+	min-height: 200px;
+    padding: 50px 0px;
 }
 .ads{
-	background-color: blue;
-	min-height: 100px;
+	min-height: 200px;
+	padding: 10px;
+}
+/* remove after*/
+.ads img{
+	float: right;
 }
 .option{
-	background-color: yellow;
-	min-height: 100px;
+	background-color: #e7e7e7;
+	min-height: 150px;
+	text-align: center;
+	font-size: 20px;
+    padding: 50px 0px;
 }
 
 /*********** Footer */
