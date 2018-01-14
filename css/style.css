@@ -15,6 +15,12 @@ header{
 }
 
 /*********** Header */
+.header-top{
+	background-color: #34495E;
+}
+.menu-link{
+	color: #f0f0f0;
+}
 #logo{
     width: 45px;
     vertical-align:-11px;
