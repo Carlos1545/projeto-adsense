@@ -1,7 +1,6 @@
 /*********** HTML Tags */
 body{
     background-color: #f0f0f0;
-    background-image: /*url(background.png)*/;
     background-position: left;
 	
 	font-family: museo-sans-rounded,sans-serif!important;
@@ -39,26 +38,6 @@ header{
 }
 
 /*********** Question Section */
-.Pergunta{
-    text-align: center
-}
-.TabelaPergunta{
-    font-family: Lucida Sans Unicode;
-    font-size: 20px;
-    text-align: center;
-    border-width:thick;
-    /*border-style: ridge;*/
-    border-color: rgb(160,82,45);/*border-color: darkgreen;*/
-    margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #b4fcaa; 
-}
-.Botoes{
-    padding: 30px;
-    text-align-last: center;
-}
-
 .question{
 	font-size: 32px;
     line-height: 38px;
@@ -70,8 +49,7 @@ header{
 	min-height: 200px;
 	padding: 10px;
 }
-/* remove after*/
-.ads img{
+.ads img{ /* remove after*/
 	float: right;
 }
 .option{
@@ -84,5 +62,27 @@ header{
 .verify{
 	font-size: 20px;
     padding: 25px 20px;
+}
+.button-mod{ /* test */
+	background-color: #cecece;
+    color: #3c3c3c;
+	height:48px;
+	min-width: 150px;
+	font-size: 17px;
+	border: #bfbfbf solid;
+	
+	border-radius: 98px;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    /*display: block;*/
 }
 /*********** Footer */
