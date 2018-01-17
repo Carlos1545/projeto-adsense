@@ -26,7 +26,7 @@ header{
     vertical-align:-11px;
 }
 #logo{
-	font-family: "Tahoma", sans-serif;
+	font-family: "Candara", sans-serif;
 	font-size: 35px;
 	text-decoration:none;
 	font-weight: bold;
@@ -81,5 +81,8 @@ header{
 	font-size: 20px;
     padding: 50px 0px;
 }
-
+.verify{
+	font-size: 20px;
+    padding: 25px 20px;
+}
 /*********** Footer */
