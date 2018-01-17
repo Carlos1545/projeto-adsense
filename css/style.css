@@ -26,16 +26,16 @@ header{
     vertical-align:-11px;
 }
 #logo{
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Tahoma", sans-serif;
 	font-size: 35px;
 	text-decoration:none;
 	font-weight: bold;
 }
 #logo-first{
-    color: rgb(79,175,70);
+    color: #f0f0f0;
 }
 #logo-last{
-    color: rgb(149,108,78);
+    color: #f0f0f0;
 }
 
 /*********** Question Section */
