@@ -23,13 +23,9 @@
 	background-color: #ececec;
 	border-bottom: solid 3px #ececec;
 }
-
-body{
-    font-family: "Candara";
-    color: #41383d;
-    font-size: 20px
+.login-box{
+	font-size: 20px;
 }
-
 .titulo-login{
     font-size: 60px;
     text-align: center;
