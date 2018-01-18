@@ -3,7 +3,7 @@
  * Light Blue: #a6dace
  * Light Pink: #f25b4a
  * Dark Pink: #db3e35
- * Black: #221e1f
+ * Black: #41383d
 
 */
 /*********** HTML Tags */
@@ -12,18 +12,18 @@ body{
     background-position: left;
 	
 	font-family: "Candara", sans-serif;
-	color: #221e1f;
+	color: #41383d;
 }
 header{
     color: #ececec;
-    background-color:#221e1f;
+    background-color:#41383d;
     padding: 5px;
 	text-align:center;
 }
 
 /*********** Header */
 .header-top{
-	background-color: #221e1f;
+	background-color: #41383d;
 	border-bottom: solid 3px #db3e35;
 }
 .menu-link{
@@ -133,7 +133,7 @@ label.label-mod{
   border-radius: 15px;
 }
 span.big-radio {
-    background-color: #221e1f;
+    background-color: #41383d;
     border-radius: 50% 50% 50% 50%;
     display: inline-block;
     height: 25px;
