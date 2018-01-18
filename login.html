@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8"> <!-- para aceitar caracteres acentuados !-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- controla as dimensões e escala da página !-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/testes.css">
+	<link rel="shortcut icon" href="images/logo.ico" />
+</head>
+<body>
+<!-- Cabeçalho -->
+	<nav class="navbar header-top">
+	 <div class="container">
+		<div class="navbar-header">
+		 <a id="logo" href="index.html">
+		  <span id="logo-first">Qual VC </span><span id="logo-last">Prefere ?</span>
+		 </a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+		  <li class="nav-item"><a class="nav-link menu-link" href="#">Pergunta Aleatória</a></li>
+		  <li class="nav-item"><a class="nav-link menu-link" href="#">Criar Pergunta</a></li>
+		  <li class="nav-item"><a class="nav-link menu-link" href="#">Teste o quão retardado você é!</a></li>
+		  <li class="nav-item"><a class="nav-link menu-link" href="#">English</a></li>
+		</ul>
+	 </div>
+	</nav>
+		
+<!-- Corpo do login.html -->
+    <div class="titulo-login">LOGIN</div>
+    <div class="login">
+        <div class="container"> <!-- Criando uma caixa paras as linhas e colunas !-->
+            <div class="row"> <!-- primeira linha !-->
+                <div class="col-md-3 float-md-left"> <!--uma coluna ocupando 3 espaços dos 12 possíveis !-->
+                Credencial:
+                </div>
+
+                <div class="col-md-9 float-md-left"> <!--outra coluna ocupando 9 espaços dos 12 possíveis !-->
+                <input type="text" name="Nome" size="30" /> 
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-3 float-md-left">
+                Senha:
+                </div>
+
+                <div class="col-md-5 float-md-left">
+                <input type="password" name="Senha" size="15" />
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 float-md-left">
+                <button class="entrar">ENTRAR</button>
+                </div>
+                
+                <div class="col-md-4 float-md-right">
+                <a href="question.html">Esqueci minha senha</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
