@@ -1,7 +1,39 @@
 /***************Matheus*/
+.login{
+    position: absolute;
+    top: 300px;
+    left: 400px
+}
 
+.entrar{
+    color: #ececec;
+	min-width: 150px;
+	font-size: 17px;
+	font-weight: 700;
+	background-color: #f25b4a;
+	height:30px;
+	padding: 0px 20px;
+	
+	border: none;
+	border-bottom: solid 3px #db3e35;
+	border-radius: 5px;
+}
+.entrar:hover{
+	color: #f25b4a;
+	background-color: #ececec;
+	border-bottom: solid 3px #ececec;
+}
 
+body{
+    font-family: "Candara";
+    color: #41383d;
+    font-size: 20px
+}
 
+.titulo-login{
+    font-size: 60px;
+    text-align: center
+}
 
 
 
