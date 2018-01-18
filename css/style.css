@@ -79,6 +79,10 @@ header{
 .verify-row{
 	background-color: #a6dace;
 }
+.radio-row{
+	border-bottom: dotted 3px #f25b4a;
+    background-color: #a6dace;
+}
 .button-mod{ /* test */
     color: #ececec;
 	min-width: 150px;
