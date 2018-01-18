@@ -81,24 +81,34 @@ header{
 	background-color: #a6dace;
 }
 .button-mod{ /* test */
-	background-color: #f25b4a;
-	border-radius: 5px;
     color: #ececec;
-	height:48px;
 	min-width: 150px;
 	font-size: 17px;
+	font-weight: 700;
+	background-color: #f25b4a;
+	height:48px;
+	
 	border: none;
 	border-bottom: solid 3px #db3e35;
+	border-radius: 5px;
 
-    font-weight: 700;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    vertical-align: middle;
-    white-space: nowrap;
-    /*display: block;*/
+}
+.button-mod:hover{
+	color: #f25b4a;
+	background-color: #ececec;
+	border: none;
+}
+.button-dis{
+	background-color: #ececec;
+	color: #b1b3a8;
+	border-bottom: solid 3px #b1b3a8;
+}
+.button-dis:hover{
+	background-color: #ececec;
+	color: #b1b3a8;
+	border-bottom: solid 3px #b1b3a8;
+	cursor: not-allowed;
 }
 /*********** Footer */
