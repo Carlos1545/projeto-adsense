@@ -70,7 +70,7 @@ header{
 	color: #a6dace;
 	text-align: center;
 	font-size: 20px;
-    padding: 60px 0px;
+    padding: 40px 0px;
 }
 .verify{
 	font-size: 20px;
@@ -120,6 +120,7 @@ header{
 }
 input[type="radio"].inputradio-mod:checked + label.label-mod {
     color: #ececec;
+	border: 2px solid;
 }
 input[type="radio"].inputradio-mod:checked + label span.small-radio {
     background-color: #ececec;
@@ -127,7 +128,9 @@ input[type="radio"].inputradio-mod:checked + label span.small-radio {
 }
 label.label-mod{
   display:inline-block;
-  margin-right:20px;
+  padding:20px;
+  border: 2px solid #f25b4a;
+  border-radius: 15px;
 }
 span.big-radio {
     background-color: #221e1f;
