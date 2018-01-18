@@ -4,12 +4,12 @@
  * Light Pink: #f25b4a
  * Dark Pink: #db3e35
  * Black: #41383d
+ * Dark Black: #332c30
 
 */
 /*********** HTML Tags */
 body{
     background-color: #ececec;
-    background-position: left;
 	
 	font-family: "Candara", sans-serif;
 	color: #41383d;
@@ -23,7 +23,7 @@ header{
 
 /*********** Header */
 .header-top{
-	background-color: #41383d;
+	background-color: #f25b4a;
 	border-bottom: solid 3px #db3e35;
 }
 .menu-link{
@@ -52,15 +52,30 @@ header{
 
 /*********** Question Section */
 .question{
+	font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem;
+
+    min-height: 200px;
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+	margin: 10px 10px;
+}
+.title-question{
 	font-size: 32px;
-    line-height: 38px;
-	
-	min-height: 200px;
-    padding: 50px 0px;
+	line-height: 38px;
+}
+.question hr{
+	border-top: 3px solid #a6dace;
+    width: 300px;
 }
 .ads{
 	min-height: 200px;
-	padding: 10px;
+    padding: 10px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px 10px;
 }
 .ads img{ /* remove after*/
 	float: right;
@@ -90,6 +105,7 @@ header{
 	font-weight: 700;
 	background-color: #f25b4a;
 	height:48px;
+	padding: 0px 20px;
 	
 	border: none;
 	border-bottom: solid 3px #db3e35;
@@ -101,7 +117,7 @@ header{
 .button-mod:hover{
 	color: #f25b4a;
 	background-color: #ececec;
-	border: none;
+	border-bottom: solid 3px #ececec;
 }
 .button-dis{
 	background-color: #ececec;
@@ -113,6 +129,24 @@ header{
 	color: #b1b3a8;
 	border-bottom: solid 3px #b1b3a8;
 	cursor: not-allowed;
+}
+.btn-facebook{
+	background-color: #648ad6;
+    border-bottom: solid 3px #5874ad;
+}
+.btn-facebook:hover{
+	color: #648ad6;
+	background-color: #ececec;
+	border-bottom: solid 3px #ececec;
+}
+.btn-twitter{
+	background-color: #55acee;
+	border-bottom: solid 3px #4a95cf;
+}
+.btn-twitter:hover{
+	color: #55acee;
+	background-color: #ececec;
+	border-bottom: solid 3px #ececec;
 }
 /*********** Área para teste de classes para o radio button personalizado https://codepen.io/inzrb/pen/JcmLw */
 .inputradio-mod{
