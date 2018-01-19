@@ -92,6 +92,7 @@ body{
 	background-color: #f25b4a;
 	height:48px;
 	padding: 0px 20px;
+	margin: 2px;
 	
 	border: none;
 	border-bottom: solid 3px #db3e35;
@@ -142,6 +143,10 @@ body{
 	color: #91beb3;
 	background-color: #ececec;
 	border-bottom: solid 3px #ececec;
+}
+.profile-img{
+	border-radius: 25px;
+	margin: 3px;
 }
 /*********** Área para teste de classes para o radio button personalizado https://codepen.io/inzrb/pen/JcmLw */
 .inputradio-mod{
