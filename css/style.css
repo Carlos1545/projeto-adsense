@@ -1,6 +1,6 @@
 /*********** Colors pallet 
  * White: #ececec
- * Light Blue: #a6dace
+ * Light Green: #a6dace
  * Light Pink: #f25b4a
  * Dark Pink: #db3e35
  * Black: #41383d
@@ -81,7 +81,6 @@ body{
 	float: right;
 }
 .option{
-	background-color: #f25b4a;
 	color: #ececec;
 	text-align: center;
 	font-size: 20px;
@@ -95,12 +94,11 @@ body{
 	background-color: #41383d;
 }
 .radio-row{
-	border-bottom: dotted 3px #f25b4a;
-    background-color: #41383d;
+	border-bottom: dotted 3px #41383d;
+    background-color: #f25b4a;
 }
 .button-mod{ /* test */
     color: #ececec;
-	min-width: 150px;
 	font-size: 17px;
 	font-weight: 700;
 	background-color: #f25b4a;
@@ -145,6 +143,15 @@ body{
 }
 .btn-twitter:hover{
 	color: #55acee;
+	background-color: #ececec;
+	border-bottom: solid 3px #ececec;
+}
+.btn-like{
+	background-color: #a6dace;
+	border-bottom: solid 3px #91beb3;
+}
+.btn-like:hover{
+	color: #91beb3;
 	background-color: #ececec;
 	border-bottom: solid 3px #ececec;
 }
