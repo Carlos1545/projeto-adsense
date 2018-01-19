@@ -7,6 +7,11 @@
  * Dark Black: #332c30
 
 */
+/*********** Fontes Externas */
+@font-face {
+     font-family: MarckScript;
+     src: url(../fonts/MarckScript-Regular.ttf);
+}
 /*********** HTML Tags */
 body{
     background-color: #ececec;
@@ -62,13 +67,34 @@ body{
     border-radius: 10px;
 	margin: 10px 10px;
 }
+.first-title{
+	margin: 25px 0px;
+	font-family: MarckScript;
+	font-size: 30px;
+	color: #f25b4a;
+	line-height: 40px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+	text-align: center;
+}
+.first-title::after, .first-title::before{
+	border-bottom: 3px solid #ececec;
+    content: " ";
+    width: 79px;
+    height: 1px;
+    display: inline-block;
+    margin: 7px 20px;
+}
 .title-question{
 	font-size: 32px;
 	line-height: 38px;
 }
 .question hr{
-	border-top: 3px solid #a6dace;
-    width: 300px;
+	border-top: 3px solid #ececec;
+    width: 30vw;
+	margin: 50px auto;
 }
 .ads{
 	min-height: 200px;
