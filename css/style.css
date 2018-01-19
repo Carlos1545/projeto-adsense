@@ -7,11 +7,6 @@
  * Dark Black: #332c30
 
 */
-/*********** Fontes Externas */
-@font-face {
-     font-family: MarckScript;
-     src: url(../fonts/MarckScript-Regular.ttf);
-}
 /*********** HTML Tags */
 body{
     background-color: #ececec;
@@ -29,13 +24,12 @@ body{
 /*********** Header */
 .header-top{
 	background-color: #41383d;
-	border-bottom: solid 3px #332c30;
 }
 .menu-link{
 	color: #ececec;
 }
 .menu-link:hover{
-	background-color: #332c30 !important;
+	background-color: #f25b4a !important;
 	color: #ececec;
 }
 #logo{
@@ -62,30 +56,9 @@ body{
     line-height: 2rem;
 
     min-height: 200px;
-    padding: 50px 20px;
+    padding: 20px 10px;
     background-color: #fff;
     border-radius: 10px;
-	margin: 10px 10px;
-}
-.first-title{
-	margin: 25px 0px;
-	font-family: MarckScript;
-	font-size: 30px;
-	color: #f25b4a;
-	line-height: 40px;
-    letter-spacing: -1px;
-    font-weight: 400;
-    font-style: normal;
-    text-transform: none;
-	text-align: center;
-}
-.first-title::after, .first-title::before{
-	border-bottom: 3px solid #ececec;
-    content: " ";
-    width: 79px;
-    height: 1px;
-    display: inline-block;
-    margin: 7px 20px;
 }
 .title-question{
 	font-size: 32px;
@@ -94,14 +67,12 @@ body{
 .question hr{
 	border-top: 3px solid #ececec;
     width: 30vw;
-	margin: 50px auto;
 }
 .ads{
 	min-height: 200px;
     padding: 10px 10px;
     background-color: #fff;
     border-radius: 10px;
-    margin: 10px 10px;
 }
 .ads img{ /* remove after*/
 	float: right;
