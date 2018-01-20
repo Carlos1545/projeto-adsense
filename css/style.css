@@ -50,6 +50,7 @@ body{
 .question hr{
 	border-top: 2px dashed #f25b4a;
     width: 40vw;
+	margin: 15vh auto;
 }
 .ads{
 	min-height: 200px;
