@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Questionamerda</title>
+	<title>Qual vc Prefere?</title>
+	
 	<meta charset="UTF-8"> <!-- para aceitar caracteres acentuados !-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- controla as dimensões e escala da página !-->
+	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/testes.css">
 	<link rel="shortcut icon" href="images/logo.ico" />
+	
+	<script src="https://use.fontawesome.com/9d67606359.js"></script>
 </head>
 <body>
 <!-- Cabeçalho -->
-	<nav class="navbar header-top">
+	<nav class="navbar header-top text-center">
 	 <div class="container">
 		<div class="navbar-header">
-		 <a id="logo" href="index.html">
-		  <span id="logo-first">Qual VC </span><span id="logo-last">Prefere ?</span>
+		 <a class=" text-center" id="logo" href="index.html">
+		  QUAL VC PREFERE?
+		  <!--<img src="images/logo-qvp.png">-->
 		 </a>
 		</div>
 		<ul class="nav navbar-nav navbar-right">
-		  <li class="nav-item"><a class="nav-link menu-link" href="#">Pergunta Aleatória</a></li>
-		  <li class="nav-item"><a class="nav-link menu-link" href="#">Criar Pergunta</a></li>
-		  <li class="nav-item"><a class="nav-link menu-link" href="#">Teste o quão retardado você é!</a></li>
-		  <li class="nav-item"><a class="nav-link menu-link" href="#">English</a></li>
+		  <li class="nav-item"><a class="nav-link menu-link" href="#"><i class="fa fa-send-o fa-lg" style="margin-right: 20px;"></i>Envie Sua Pergunta</a></li>
 		</ul>
 	 </div>
 	</nav>
@@ -30,49 +32,29 @@
 <!-- Campo das perguntas -->
 	<section>
 		<div class="container">
-			<div class="col-md-8 float-md-left question">
+			<div class="col-sm-12 float-sm-left question">
 				<span class="title-question">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eros turpis, luctus finibus mi eu?</span>
 				<hr>
 				<div class="row">
-					<div class="col-md-6 float-md-left">
-					  <button class="button-mod btn-facebook">Compartilhe no Facebook</button>
+					<div class="col-sm-6 float-sm-left">
+						<img class="profile-img" src="images/default-profile.png">
+						<span> Lorem ipsum da Silva</span>
 					</div>
-					<div class="col-md-6 float-md-right text-right">
-					  <span>400 pessoas responderam</span> <br />
-					</div>
+					<button class="button-mod btn-facebook col-md-3 float-sm-right"><i class="fa fa-facebook fa-lg" style="margin-right: 20px;"></i>Compartilhe no Facebook</button>
+					<button class="button-mod btn-twitter col-md-3 float-sm-right"><i class="fa fa-twitter fa-lg" style="margin-right: 20px;"></i>Compartilhe no Twitter</button>
 				</div>
-				<button class="button-mod btn-twitter">Compartilhe no Twitter</button>
+				
 			</div>
-			<div class="col-md-3 float-md-left ads">
-				<img src="images/adsense-test.png" width="265px">
-			</div>
-		</div>
-		<div class="row radio-row">
-			<div class="col-sm-6 float-sm-left option">
-				<input class="inputradio-mod" type="radio" name="answer" value="option1" id="option1"> 
-				 <label class="radio label-mod" for="option1"> 
-				   <span class="big-radio">
-					 <span class="small-radio"></span>
-				   </span>Lorem ipsum dolor sit amet
-				 </label>
-			</div>
-			<div class="col-sm-6 float-sm-left option">
-				<input class="inputradio-mod" type="radio" name="answer" value="option2" id="option2"> 
-				 <label class="radio label-mod" for="option2"> 
-				   <span class="big-radio">
-					 <span class="small-radio"></span>
-				   </span>Aenean eros turpis, luctus finibus mi eu.
-				 </label>
-			</div>
+			
 		</div>
 		<div class="row verify-row">
 		 <div class="container">
-			<div class="col-sm-6 float-sm-left text-left verify">
-				<button class="button-mod">Pular</button>
+			<div class="col-xs-6 float-xs-left text-left verify">
+				<button class="button-mod">Lorem ipsum dolor sit amet</button>
 			</div>
-			<div class="col-sm-6 float-sm-left text-right verify">
-				<button class="button-mod button-dis disabled">Responder</button>
-			<div>
+			<div class="col-xs-6 float-xs-left text-right verify">
+				<button class="button-mod ">Aenean eros turpis, luctus finibus mi eu.</button>
+			</div>
 		 </div>
 		</div>
 	</section>

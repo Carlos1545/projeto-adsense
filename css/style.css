@@ -1,6 +1,6 @@
 /*********** Colors pallet 
  * White: #ececec
- * Light Blue: #a6dace
+ * Light Green: #a6dace
  * Light Pink: #f25b4a
  * Dark Pink: #db3e35
  * Black: #41383d
@@ -9,45 +9,29 @@
 */
 /*********** HTML Tags */
 body{
-    background-color: #ececec;
+    background-color: #fff;
 	
 	font-family: "Candara", sans-serif;
 	color: #41383d;
 }
-header{
-    color: #ececec;
-    background-color:#41383d;
-    padding: 5px;
-	text-align:center;
-}
 
 /*********** Header */
 .header-top{
-	background-color: #f25b4a;
-	border-bottom: solid 3px #db3e35;
+	background-color: #41383d;
 }
 .menu-link{
 	color: #ececec;
 }
 .menu-link:hover{
-	background-color: #db3e35 !important;
+	background-color: #f25b4a !important;
 	color: #ececec;
 }
 #logo{
-    width: 45px;
-    vertical-align: -11px;
-}
-#logo{
-	font-family: "Candara", sans-serif;
-	font-size: 35px;
-	text-decoration:none;
-	font-weight: bold;
-}
-#logo-first{
-    color: #ececec;
-}
-#logo-last{
-    color: #ececec;
+	font-size: 25px;
+    line-height: 50px;
+	color: #ececec;
+	text-decoration: none;
+	font-family: helvetica;
 }
 
 /*********** Question Section */
@@ -57,55 +41,40 @@ header{
     line-height: 2rem;
 
     min-height: 200px;
-    padding: 50px 20px;
-    background-color: #fff;
-    border-radius: 10px;
-	margin: 10px 10px;
+    padding: 20px 10px;
 }
 .title-question{
 	font-size: 32px;
 	line-height: 38px;
 }
 .question hr{
-	border-top: 3px solid #a6dace;
-    width: 300px;
+	border-top: 2px dashed #f25b4a;
+    width: 40vw;
 }
 .ads{
 	min-height: 200px;
     padding: 10px 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 10px 10px;
+	overflow: hidden;
 }
 .ads img{ /* remove after*/
 	float: right;
-}
-.option{
-	background-color: #f25b4a;
-	color: #a6dace;
-	text-align: center;
-	font-size: 20px;
-    padding: 40px 0px;
 }
 .verify{
 	font-size: 20px;
     padding: 25px 20px;
 }
 .verify-row{
-	background-color: #a6dace;
+	background-color: #41383d;
 }
 .radio-row{
-	border-bottom: dotted 3px #f25b4a;
-    background-color: #a6dace;
+    background-color: #f25b4a;
 }
 .button-mod{ /* test */
     color: #ececec;
-	min-width: 150px;
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: 700;
 	background-color: #f25b4a;
-	height:48px;
-	padding: 0px 20px;
+	min-height:48px;
 	
 	border: none;
 	border-bottom: solid 3px #db3e35;
@@ -148,44 +117,17 @@ header{
 	background-color: #ececec;
 	border-bottom: solid 3px #ececec;
 }
-/*********** Área para teste de classes para o radio button personalizado https://codepen.io/inzrb/pen/JcmLw */
-.inputradio-mod{
-	display:none;
+.btn-like{
+	background-color: #a6dace;
+	border-bottom: solid 3px #91beb3;
 }
-input[type="radio"].inputradio-mod:checked + label.label-mod {
-    color: #ececec;
-	border: 2px solid;
+.btn-like:hover{
+	color: #91beb3;
+	background-color: #ececec;
+	border-bottom: solid 3px #ececec;
 }
-input[type="radio"].inputradio-mod:checked + label span.small-radio {
-    background-color: #ececec;
-    opacity: 1;
+.profile-img{
+	border-radius: 25px;
+	margin: 3px;
 }
-label.label-mod{
-  display:inline-block;
-  padding:20px;
-  border: 2px solid #f25b4a;
-  border-radius: 15px;
-}
-span.big-radio {
-    background-color: #41383d;
-    border-radius: 50% 50% 50% 50%;
-    display: inline-block;
-    height: 25px;
-    margin-bottom: -11px;
-    margin-right: 9px;
-    padding: 8px;
-    position: relative;
-    top: -3px;
-    width: 25px;
-}
-span.small-radio {
-    border-radius: 50% 50% 50% 50%;
-    display: block;
-    height: 100%;
-    transition: background 0.4s ease 0s;
-    width: 100%;
-}
-
-
-
 /*********** Footer */
