@@ -11,7 +11,9 @@
 	border: none;
 	border-bottom: solid 3px #db3e35;
 	border-radius: 5px;
+    margin-top: 60px;
 }
+
 .entrar:hover{
 	color: #f25b4a;
 	background-color: #ececec;
@@ -33,7 +35,8 @@
 }
 
 .opcoes{
-    text-align: center
+    text-align: center;
+    
 }
 
 .login{
