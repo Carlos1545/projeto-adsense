@@ -21,7 +21,8 @@
 .entrar:hover{
 	color: #f25b4a;
 	background-color: #ececec;
-	border-bottom: solid 3px #ececec;
+	border-bottom: solid 3px gray;
+    border-radius: 5px;
 }
 .login-box{
 	font-size: 20px;
