@@ -69,6 +69,9 @@ body{
 .radio-row{
     background-color: #f25b4a;
 }
+.espacamento{
+	margin: 15vh 0px;
+}
 .button-mod{ /* test */
     color: #ececec;
 	font-size: 14px;
