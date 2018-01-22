@@ -11,7 +11,8 @@
 	border: none;
 	border-bottom: solid 3px #db3e35;
 	border-radius: 5px;
-    margin-top: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .entrar:hover{
@@ -20,6 +21,11 @@
 	border-bottom: solid 3px gray;
     border-radius: 5px;
 }
+
+.body-login{
+    background-color: #332c30;
+}
+
 .login-box{
 	font-size: 20px;
 }
@@ -40,8 +46,11 @@
 }
 
 .login{
-    margin-top: 100px
+    margin-top: 40px;
+    background-color: #a6dace; /* #ececec */
+    border-radius: 10px;
 }
+
 
 
 /**************Arthur*/

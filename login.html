@@ -9,40 +9,50 @@
     <link rel="stylesheet" type="text/css" href="css/testes.css">
 	<link rel="shortcut icon" href="images/logo.ico" />
 </head>
-<body>
+<body class="body-login">
 		
 <!-- Corpo do login.html -->
-    <div class="col-md-4 float-md-left">
+    <div class="borda-esquerda col-md-4 float-md-left">
     </div>
     
     <div class="login col-md-4 float-md-left">
         <form>
-            <div class="login-box" style="text-align: center;"> <!-- Criando uma caixa paras as linhas e colunas !-->
+            <div class="login-box" style="text-align: center;">
                 <div class="titulo-login">Qual VC Prefere?</div>
-                <div style="height: 50px; width: 100%; text-align: left;"> <!-- primeira linha !-->
+                <div style="height: 50px; width: 100%; text-align: center;">
                     <div class="col-md-3 float-md-left"> <!--uma coluna ocupando 3 espaços dos 12 possíveis !-->
-                        <label for="name">Credencial:</label>
+                        <label for="name">Usuário:</label>
                     </div>
 
-                    <div class="col-md-9 float-md-left"> <!--outra coluna ocupando 9 espaços dos 12 possíveis !-->
-                        <input type="text" id="name" size="30"/>
+                    <div class="col-md-5 float-md-left"> 
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-user"></i>
+                            </span> 
+                            <input type="text" id="name" size="20" placeholder="Nome ou e-mail"/>
+                        </div>
                     </div>
                 </div>
-                <div class="" style="height: 50px; width: 100%; text-align: left;">
+                <div style="height: 50px; width: 100%; text-align: center;">
                     <div class="col-md-3 float-md-left">
-                        <label for="password">Senha</label>
+                        <label for="password">Senha:</label>
                     </div>
 
-                    <div class="col-md-5 float-md-left">
-                        <input type="password" id="password" name="Senha" size="15" />
+                    <div class="col-md-5 float-md-left">                
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <i class="glyphicon glyphicon-lock"></i>
+                            </span>    
+                        <input type="password" id="password" name="Senha" size="15" placeholder="6 dígitos"/>
+                        </div>
                     </div>
-                </div>
-                <button class="entrar" type="submit">ENTRAR</button>
+                </div>              
+                <button class="entrar" type="submit">ENTRAR</button>                                    
             </div>
         </form>
     </div>
     
-    <div class="col-md-4 float-md-left">
+    <div class="borda-direita col-md-4 float-md-left">
     </div>
     
 </body>
