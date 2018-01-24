@@ -50,6 +50,12 @@
     background-color: #a6dace; /* #ececec */
     border-radius: 10px;
 }
+.input-group{
+	min-width: 100px
+}
+.input-group-addon{
+    width: 40px;
+}
 
 .input-group-addon{
     
