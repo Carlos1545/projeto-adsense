@@ -33,7 +33,7 @@
     font-size: 60px;
     text-align: center;
     color: black;
-    margin-bottom: 100px
+    margin-bottom: 70px
 }
 
 .row{
@@ -51,7 +51,9 @@
     border-radius: 10px;
 }
 
-
+.input-group-addon{
+    
+}
 
 /**************Arthur*/
 
